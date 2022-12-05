@@ -131,7 +131,71 @@ address {
 .hero-title{
     padding-top: 170px;
     margin-bottom: 25px;
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.33;
+
+    text-transform: uppercase;
            }
 .hero-text{
+    max-width: 500px;
     margin-bottom: 40px;
-}                      
+
+    line-height: 1.5;
+
+    letter-spacing: 0.04em;
+
+    color:var(--second-color-text);
+            }  
+     /* ПРЕИМУЩЕСТВА (BENEFITS)  */
+.container.benefits{
+    padding-bottom: 130px;
+                   }
+.title.benefits{
+    margin-bottom: 8px;
+               }
+.subtitle.benefits{
+    margin-bottom: 40px;
+                  }
+.benefits-content{
+    display: flex;
+    justify-content: space-between;
+}                  
+          
+.benefits-text{
+    margin-bottom: 40px;
+
+    max-width: 460px;
+
+    line-height: 1.5;
+
+    letter-spacing: 0.04em;
+              }  
+.benefits-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    max-width: 608px;
+               }
+.benefits-list-item{
+    flex-basis: calc((100% - 32px) / 2);
+    padding:32px 40px;
+                   }   
+.benefits-list-header{
+    margin-bottom: 8px;
+    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+                      }                   
+.benefits-list-text{
+    margin: 0; 
+   
+    font-size: 14px;
+    line-height: 1.57;
+
+    color: var(--second-color-text);
+                   }                                                                              
+
+
