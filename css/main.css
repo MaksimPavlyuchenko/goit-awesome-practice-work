@@ -75,8 +75,15 @@ address {
     box-shadow: 0px 20px 40px rgba(128, 143, 150, 0.19);
     border-radius: 2px;
     border-color:transparent;
-       }              
-
+       }
+.button:hover{
+    background:linear-gradient(358.27deg,
+    rgba(100, 123, 100, 0.77) -118.86%,
+    rgba(100, 123, 100, 0) 25.62%, 
+    rgba(100, 123, 100, 0) 98.53%),
+     #FFFFFF;
+     color: var(--main-color-text);
+              }                    
 /* ОБЩИЙ СТИЛЬ ДЛЯ ЗАГОЛОВКОВ СЕКЦИЙ */
 .title{
     margin-bottom: 8px;
@@ -127,8 +134,7 @@ address {
 .nav-list-link{
     padding-top: 14px;
     padding-bottom: 14px;
-    line-height:1.5;
-               }                                 
+    line-height:1.5;}                                          
 .button.header{
     padding: 12px 16px;
                }
