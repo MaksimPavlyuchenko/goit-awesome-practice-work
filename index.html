@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- ШАПКА (HEADER) -->
-    <header class="header">
+    <header class="section-header">
       <div class="container header">
         <nav class="nav">
           <a href="./index.html" class="logo">AwesomeUi</a>
@@ -49,10 +49,10 @@
       <section class="section-hero">
         <div class="container hero">
           <div class="hero-part">
-            <h1 class="hero-title">
+            <h1 class="subtitle hero-title">
               Awesome User Interface is what we can apply
             </h1>
-            <p class="hero-text">
+            <p class="text hero-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue et
               eros, pellentesque et. Tristique ullamcorper ac pharetra in nisi
               sit vivamus lorem.
@@ -70,13 +70,13 @@
         </div>
       </section>
       <!-- ПРЕИМУЩЕСТВА (BENEFITS) -->
-      <section class="benefits">
+      <section class="section-benefits">
         <div class="container benefits">
           <div class="benefits-content">
             <div class="benefits-module">
               <h2 class="title benefits">Advantages</h2>
               <h3 class="subtitle benefits">Our Benefits</h3>
-              <p class="benefits-text">
+              <p class="text benefits-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
                 quis vitae nullam aliquet dignissim quis. Vel, faucibus ac justo
                 aliquam donec enim, commodo fermum vitae. Et velit sceleris,
@@ -122,28 +122,28 @@
         </div>
       </section>
       <!-- ОСОБЕННОСТИ (FEATURES) -->
-      <section class="features">
-        <div class="container">
+      <section class="section-features">
+        <div class="container features">
           <h2 class="title features">Features</h2>
           <h3 class="subtitle features">What we can apply</h3>
           <ul class="list features-list">
-            <li class="features-list item">
-              <h4 class="features-list header">MOT consectet</h4>
-              <p class="features-list text">
+            <li class="features-list-item">
+              <h4 class="features-list-header">MOT consectet</h4>
+              <p class="text features-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
                 quis vitae
               </p>
             </li>
-            <li class="features-list item">
-              <h4 class="features-list header">MOT consectet</h4>
-              <p class="features-list text">
+            <li class="features-list-item">
+              <h4 class="features-list-header">MOT consectet</h4>
+              <p class="text features-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
                 quis vitae
               </p>
             </li>
-            <li class="features-list item">
-              <h4 class="features-list header">MOT consectet</h4>
-              <p class="features-list text">
+            <li class="features-list-item">
+              <h4 class="features-list-header">MOT consectet</h4>
+              <p class="text features-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
                 quis vitae
               </p>
@@ -152,33 +152,39 @@
         </div>
       </section>
       <!-- О НАС (ABOUT US) -->
-      <section class="about">
+      <section class="section-about">
         <div class="container">
-          <img
-            src="./images/pexels.jpg"
-            alt="Young man and young women get smile his comrade"
-            width="610"
-            height="570"
-          />
-          <h2 class="title about">About us</h2>
-          <h3 class="subtitle about">Who we are</h3>
-          <p class="about-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
-            vitae nullam aliquet dignissim quis. Vel, faucibus ac justo aliquam
-            donec enim, commodo fermentum vitae. Et velit sceleris, commodo
-            entum vitaefermentum vitae. Et velit sceleris nullam aliquet
-            dignissim
-          </p>
-          <button class="button about" type="button">Get STARTED</button>
+          <div class="about-block">
+            <div class="about-thumb">
+              <img
+                src="./images/pexels.jpg"
+                alt="Young man and young women get smile his comrade"
+                width="610"
+                height="570"
+              />
+            </div>
+            <div class="about-content">
+              <h2 class="title about">About us</h2>
+              <h3 class="subtitle about">Who we are</h3>
+              <p class="text about-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                quis vitae nullam aliquet dignissim quis. Vel, faucibus ac justo
+                aliquam donec enim, commodo fermentum vitae. Et velit sceleris,
+                commodo entum vitaefermentum vitae. Et velit sceleris nullam
+                aliquet dignissim
+              </p>
+              <button class="button about" type="button">Get STARTED</button>
+            </div>
+          </div>
         </div>
       </section>
       <!-- КОММАНДА (TEAM) -->
-      <section class="team">
+      <section class="section-team">
         <div class="container">
           <h2 class="title team">Our Team</h2>
           <h3 class="subtitle team">How we look like</h3>
           <ul class="list team-list">
-            <li class="team-list thumb">
+            <li class="team-list-thumb">
               <h4 class="team-prof">CTO May & Baker</h4>
               <p class="team-name">Tayo Oshinuwa</p>
               <img
@@ -186,27 +192,29 @@
                 alt="Photo team membre"
                 width="180"
                 height="264"
+                class="team-photo"
               />
-              <blockquote class="team-quote">
+              <blockquote class="text team-text">
                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
                 quis vitae“
               </blockquote>
             </li>
-            <li class="team-list thumb">
+            <li class="team-list-thumb">
               <h4 class="team-prof">CTO May & Baker</h4>
               <p class="team-name">Tayo Oshinuwa</p>
               <img
                 src="../images/leon.jpg"
                 alt="Photo team membre"
-                width="180"
+                width="170"
                 height="264"
+                class="team-photo"
               />
-              <blockquote class="team-quote">
+              <blockquote class="text team-text">
                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
                 quis vitae“
               </blockquote>
             </li>
-            <li class="team-list thumb">
+            <li class="team-list-thumb">
               <h4 class="team-prof">CTO May & Baker</h4>
               <p class="team-name">Tayo Oshinuwa</p>
               <img
@@ -214,8 +222,9 @@
                 alt="Photo team membre"
                 width="180"
                 height="264"
+                class="team-photo"
               />
-              <blockquote class="team-quote">
+              <blockquote class="text team-text">
                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
                 quis vitae“
               </blockquote>
@@ -225,28 +234,57 @@
       </section>
     </main>
     <!-- ПОДВАЛ (FOOTER) -->
-    <footer class="footer">
+    <footer class="section-footer">
       <div class="container">
-        <a class="logo" href="./index.html">Awesome Ui</a>
-        <p class="footer-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        </p>
-        <p class="footer-copyright">Copyright &copy; 2022 AWESOME</p>
-        <p class="footer-rights">All rights reserved</p>
-        <ul class="list footer-links">
-          <li class="footer-links item">
-            <a class="social-link" href="#" aria-label="Instagram"></a>
-          </li>
-          <li class="footer-links item">
-            <a class="social-link" href="#" aria-label="Dribbble"></a>
-          </li>
-          <li class="footer-links item">
-            <a class="social-link" href="#" aria-label="Twitter"></a>
-          </li>
-          <li class="footer-links item">
-            <a class="social-link" href="#" aria-label="YouTube"></a>
-          </li>
-        </ul>
+        <div class="footer-blocks">
+          <div class="footer-block-one">
+            <a class="logo footer-logo" href="./index.html">Awesome Ui</a>
+            <p class="text footer-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+            <p class="text footer-copyright">Copyright &copy; 2022 AWESOME</p>
+            <p class="text footer-rights">All rights reserved</p>
+            <ul class="list footer-links">
+              <li class="footer-links item">
+                <a class="social-link" href="#" aria-label="Instagram"></a>
+              </li>
+              <li class="footer-links item">
+                <a class="social-link" href="#" aria-label="Dribbble"></a>
+              </li>
+              <li class="footer-links item">
+                <a class="social-link" href="#" aria-label="Twitter"></a>
+              </li>
+              <li class="footer-links item">
+                <a class="social-link" href="#" aria-label="YouTube"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-block-two">
+            <h3 class="block-header">Company</h3>
+            <ul class="list block-two-list">
+              <li class="block-two-item">Lorem Ipsum 1</li>
+              <li class="block-two-item">Lorem 2</li>
+              <li class="block-two-item">Lorem 3</li>
+              <li class="block-two-item">Lorem 4</li>
+              <li class="block-two-item">Lorem 5</li>
+            </ul>
+          </div>
+          <div class="footer-block-three">
+            <h3 class="block-header">Support</h3>
+            <ul class="list block-three-list">
+              <li class="block-three-item">Lorem Ipsum 6</li>
+              <li class="block-three-item">Lorem 7</li>
+              <li class="block-three-item">Lorem 8</li>
+              <li class="block-three-item">Lorem 9</li>
+              <li class="block-three-item">Lorem 10</li>
+            </ul>
+          </div>
+          <div class="footer-block-four">
+            <h3 class="block-header">Send message</h3>
+            <form></form>
+            <button class="button footer" type="button">Send message</button>
+          </div>
+        </div>
       </div>
     </footer>
   </body>

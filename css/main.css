@@ -79,6 +79,7 @@ address {
 
 /* ОБЩИЙ СТИЛЬ ДЛЯ ЗАГОЛОВКОВ СЕКЦИЙ */
 .title{
+    margin-bottom: 8px;
     
     font-weight: 400;
     line-height: 1.33;
@@ -88,6 +89,8 @@ address {
     color:var(--header-color-text);
       }
 .subtitle{
+    margin-bottom: 40px;
+
     font-weight: 500;
     font-size: 36px;
     line-height: 1.33;
@@ -96,8 +99,18 @@ address {
 
     color:var(--active-color-text);
          } 
+         /* ОБЩИЙ СТИЛЬ ПАРАГРАФОВ */
+.text{
+    margin-bottom: 40px;
+
+    line-height: 1.5;
+
+    letter-spacing: 0.04em;
+
+    color:var(--second-color-text);
+      }         
  /*     ШАПКА (HEADER)    */
-.container.header{
+.section-header{
     padding-top: 48px;
     padding-bottom: 34px;
                   } 
@@ -112,6 +125,8 @@ address {
     gap:40px;
          }
 .nav-list-link{
+    padding-top: 14px;
+    padding-bottom: 14px;
     line-height:1.5;
                }                                 
 .button.header{
@@ -132,44 +147,21 @@ address {
     padding-top: 170px;
     margin-bottom: 25px;
 
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 1.33;
-
-    text-transform: uppercase;
+    color: var(--main-color-text);
            }
 .hero-text{
     max-width: 500px;
-    margin-bottom: 40px;
-
-    line-height: 1.5;
-
-    letter-spacing: 0.04em;
-
-    color:var(--second-color-text);
             }       
      /* ПРЕИМУЩЕСТВА (BENEFITS)  */
-.container.benefits{
+.section-benefits{
     padding-bottom: 130px;
                    }
-.title.benefits{
-    margin-bottom: 8px;
-               }
-.subtitle.benefits{
-    margin-bottom: 40px;
-                  }
 .benefits-content{
     display: flex;
     justify-content: space-between;
 }                     
 .benefits-text{
-    margin-bottom: 40px;
-
     max-width: 460px;
-
-    line-height: 1.5;
-
-    letter-spacing: 0.04em;
               }  
 .benefits-list{
     display: flex;
@@ -195,6 +187,147 @@ address {
     line-height: 1.57;
 
     color: var(--second-color-text);
-                   }                                                                              
+                   }     
+  /* ОСБЕННОСТИ (FEATURES)  */
+.section-features{
+ padding-bottom: 130px;
+                 } 
+.features-list{
+    display:flex;
+    gap:44px;
+              }  
+.features-list-item{
+    max-width: 360px;
+    
+    padding: 60px 50px;
 
+    background: linear-gradient(358.27deg,
+     rgba(100, 123, 100, 0.77) -118.86%,
+     rgba(100, 123, 100, 0) 25.62%, 
+     rgba(100, 123, 100, 0) 98.53%),
+      #FFFFFF;
+    border-radius: 8px;
+                  }
+.features-list-item:hover{
+    background:var(--third-bcg-color);
+    color: var(--button-text-color);
+                          }
+.features-list-item:hover .features-text
+                          {
+    color: var(--button-text-color);
+                          }
+.features-list-header{
+    margin-bottom: 16px;
+    
+    font-weight: 500;
+    font-size: 24px;
+    line-height:1.5;
+
+    text-transform: uppercase; 
+                        }                          
+.features-text{
+    margin: 0;
+             }
+  /*  О НАС (ABOT US)  */
+.section-about{
+    padding-bottom: 90px;
+              }
+.about-block{
+    display: flex;
+    justify-content: space-between;
+            }
+.about-content{
+    max-width: 454px;
+    padding-top: 64px;
+              } 
+    /* КОММАНДА (TEAM) */
+.section-team{
+    padding-bottom: 130px;
+             }
+.team-list{
+    display: flex;
+    gap:32px;
+          }     
+.team-list-thumb{
+    max-width: 368px;
+    padding: 24px 32px;
+
+    background: linear-gradient(358.27deg, 
+    rgba(100, 123, 100, 0.77) -118.86%,
+    rgba(100, 123, 100, 0) 25.62%, 
+    rgba(100, 123, 100, 0) 98.53%), 
+    #FFFFFF;
+    border-radius: 8px;
+}
+.team-prof{
+    margin: 0;
+
+    font-weight: 500;
+    line-height:1.5;
+    color:var(--main-color-text);
+           }
+.team-name{
+    font-size: 14px;
+    line-height:1.57;
+
+    color:var(--second-color-text);
+           }           
+.team-photo{
+    margin-bottom: 24px;
+}
+.team-text{
+    margin:0;
+
+    font-style: italic;
+    line-height:1.5;
+
+    letter-spacing: 0.04em;
+           }
+    /* ПОДВАЛ (FOOTER) */
+.section-footer{
+    padding: 48px 0;
+    background-color:#F0DCC5;
+} 
+.footer-blocks{
+    display: flex;}
+/* FOOTER-BLOCK--ONE-- */
+.footer-block-one{
+    width: 268px;
+     margin-right: 132px;}
+.footer-logo{
+    margin-bottom: 16px;
+            }
+.footer-text{
+    margin-bottom: 16px;
+             }  
+.footer-copyright{
+    margin-bottom: 16px;
+                  } 
+.footer-rights{
+    margin-bottom: 24px;
+              }
+    /* FOOTER-BLOCK--TWO--*/   
+.block-header{
+    margin-bottom: 24px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.5;
+
+    color:var(--active-color-text);}
+.footer-block-two{width: 168px;
+                 margin-right: 32px;}                        
+.block-two-item{line-height:1.5;}     
+.block-two-item:not(:last-child){
+    margin-bottom: 12px;}
+   /* FOOTER-BLOCK--THREE--*/
+.footer-block-three{width: 168px;
+                    margin-right: 132px;}   
+.block-three-item{line-height:1.5;}     
+.block-three-item:not(:last-child){
+    margin-bottom: 12px;} 
+  /* FOOTER-BLOCK--FOUR--*/
+.footer-block-four{
+    width: 268px;
+                  }  
 
